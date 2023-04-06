@@ -301,12 +301,17 @@ display: flex;
 gap: 24px;
 }
 .section-four-img{
-    display: block;
+display: block;
+border: 1px solid var(--border-portfolio);
+border-top: none;
+border-bottom: none;
+  
 }
 .section-four{
 padding-top: 120px;
 padding-bottom: 120px;
 background:var(--footer-second-color);
+
 }
 .section-four-photo{
     margin-bottom: 8px;
@@ -361,6 +366,10 @@ fill: var(--footer-second-color);
     }
 .link-cards-portfolio:hover{
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.section-img{
+    display: block;
+
 }
 .cards{
     padding-top: 32px;
@@ -485,7 +494,7 @@ width: 100%;
 
 }
 .footer-media-link:hover {
-    background-color: var(--main-btn-color);
+    background-color: var(--ocean-bg-color);
 }
 .footer-icon{
 fill: var(--footer-second-color);
@@ -565,7 +574,6 @@ color: var(--second-btn-color);
 .portfolio-list-btn{
 display: flex;
 justify-content: center;
-
 }
 .portfolio-list-btn .work-item + .work-item {
     margin-left: 24px;
@@ -578,6 +586,7 @@ gap: 48px 24px;
 }
 .flex-container{
 width: calc((100% - 48px) / 3);
+
 }
 .portfolio-btn:hover{color: var(--main-title-color) ;
   background-color: var(--main-btn-color); 
