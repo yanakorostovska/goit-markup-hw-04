@@ -430,7 +430,7 @@ border-color: var(--main-btn-color);
 
 
 .company-item {
-width: calc((100% - 88px) / 6);
+width: calc((100% - 120px) / 6);
 height: 88px;
 }
 
